@@ -1,3 +1,5 @@
+import UserManagementItem from "./UserManagementItem";
+
 function UserManagement() {
     return (
       <div className="bg-slate-700 h-screen ml-80">
@@ -21,15 +23,28 @@ function UserManagement() {
             <div className="p-6">
                 <h3 text-lg font-semibold mb-4>My Account</h3>
                 <div className="grid md:grid-cols-2 gap-4">
-                    <div className="bg-gray-50 p-4 rounded-lg "></div>
-                    <div className="bg-gray-50 p-4 rounded-lg "></div>
-                    <div className="bg-gray-50 p-4 rounded-lg "></div>
+                    <div className="bg-gray-50 p-4 rounded-lg ">
+                   
+                    <UserManagementItem name = "Account Number" value1="dfhjhdjhgjkdsfhgjhdfsjghdfskj"/>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-lg ">
+                   
+                    <UserManagementItem name = "Sign-In Email" value1="Harshitshukla638gamil.com"/>
+                    
+
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-lg ">
+                    <UserManagementItem name = "OTP Authentication" value1="On"/>
+
+                    </div>
 
                 </div>
 
             </div>
-            <div>
-                
+            <div className="p-6 border-t border-gray-200">
+                <div className="flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[#ef4545] hover:bg-indigo-700">
+                SignOut
+                </div>
             </div>
             
           </div>
