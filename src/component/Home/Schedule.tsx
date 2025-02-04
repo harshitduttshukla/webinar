@@ -1,4 +1,3 @@
-import React from 'react'
 import Schedulleitem from './Schedulleitem'
 
 function Schedule() {

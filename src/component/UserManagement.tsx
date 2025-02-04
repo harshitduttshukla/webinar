@@ -2,7 +2,7 @@ import UserManagementItem from "./UserManagementItem";
 
 function UserManagement() {
     return (
-      <div className="bg-slate-700 h-screen ml-80">
+      <div className="h-screen ml-80">
         <div className="flex justify-center">
           {/* Second div with specific styling */}
           <div className="mt-10 bg-white h-[600px] mb-96 shadow-lg rounded-lg overflow-hidden w-[68%]">

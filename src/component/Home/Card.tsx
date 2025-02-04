@@ -1,6 +1,3 @@
-
-import harshit from '../assets/harshit2.jpg'
-
 interface CardProps {
     img : string;
     name : string;
