@@ -1,5 +1,3 @@
-import React from 'react'
-
 function UserManagementItem({name,value1} :{
     name : string,
     value1 : string

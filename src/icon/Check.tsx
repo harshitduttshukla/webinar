@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Check() {
   return (
     <li className='flex items-center space-x-3 text-gray-700'>
