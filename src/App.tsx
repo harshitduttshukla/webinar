@@ -15,6 +15,7 @@ function App() {
           <Route path="UserManagement" element={<UserManagement />} />
           <Route path="PaymentsBilling" element={<PaymentsBilling />} />
           <Route path = "Home" element = {<Homeview/>}/>
+          <Route path = "" element = {<Homeview/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
