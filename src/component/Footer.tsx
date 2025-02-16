@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer className='mt-10 bg-gray-100 bottom-0 py-6  flex flex-col items-center'>
+    <footer className=' bg-gray-100 bottom-0 py-6  flex flex-col items-center'>
         <p className='mb-3'>
           <Link to = "" >Privacy Policy | </Link>
           
