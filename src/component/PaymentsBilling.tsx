@@ -1,4 +1,4 @@
-import Check from "../icon/check";
+import Check from "../icon/Check";
 import Home from "../icon/Home";
 import Payments from "../icon/Payments";
 import PaymentsItem from "./PaymentsItem";
