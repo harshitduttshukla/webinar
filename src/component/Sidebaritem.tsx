@@ -1,5 +1,4 @@
 import { ReactElement } from 'react'
-import Home from '../icon/Home'
 
 interface Sidebaritemprop{
     title : string;

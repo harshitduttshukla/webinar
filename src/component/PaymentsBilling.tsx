@@ -49,7 +49,7 @@ function PaymentsBilling() {
                     <li><PaymentsItem name="Advanced meeting analytics" icons={<Check/>}/></li>
                     <li><PaymentsItem name="Custom branding options" icons={<Check/>}/></li>
                   </ul>
-                  <div class="mt-6 bg-green-100 text-green-800 p-4 rounded-lg text-center">You are currently subscribed to the Premium Plan</div>
+                  <div className="mt-6 bg-green-100 text-green-800 p-4 rounded-lg text-center">You are currently subscribed to the Premium Plan</div>
                 </div>
 
               </div>
