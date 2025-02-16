@@ -1,12 +1,12 @@
 interface CardProps {
     img?: string;
     name : string;
-    number? : number;
+    
     email : string;
-    address ?: string
+    
 }
 
-function Card({img,name,number,email,address}:CardProps) {
+function Card({img,name,email,}:CardProps) {
   return (
    
         
